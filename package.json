@@ -4,8 +4,8 @@
   "description": "Fixing broken code using code branching techniques",
   "main": "index.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint --format codeframe .",
-    "test": "./node_modules/.bin/mocha tests.js"
+    "lint": "eslint --format codeframe .",
+    "test": "mocha tests.js"
   },
   "author": "Stack Education",
   "license": "ISC",
@@ -14,5 +14,13 @@
     "chai": "^4.2.0",
     "eslint": "^6.3.0",
     "mocha": "^6.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antdesroche/switching-it-up.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antdesroche/switching-it-up/issues"
+  },
+  "homepage": "https://github.com/antdesroche/switching-it-up#readme"
 }
